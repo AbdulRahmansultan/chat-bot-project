@@ -4,7 +4,7 @@ from django.test import TestCase
 
 from google import genai
 
-client = genai.Client(api_key="AIzaSyCeTru699Xn_3LnUGsR9ZMKhBUR8CQOHPk")
+client = genai.Client(api_key="entr yor api key")
 
 response = client.models.generate_content(
     model="gemini-1.5-flash",
